@@ -21,8 +21,10 @@
 --Ålder INT
 --);
 
-INSERT INTO personer (ID, Förnamn, Efternamn, Hemort, Ålder)
-VALUES (1, 'Alexander', 'Goold', 'Mölndal', 28), 
-(2, 'Jacob', 'Fjellström', 'Mölndal', 27),
-(3, 'Pontus', 'Ekdahl', 'Borås', 27),
-(4, 'Pernilla', 'Thorén', 'Kungälv', 31)
+--INSERT INTO personer (ID, Förnamn, Efternamn, Hemort, Ålder)
+--VALUES (1, 'Alexander', 'Goold', 'Mölndal', 28), 
+--(2, 'Jacob', 'Fjellström', 'Mölndal', 27),
+--(3, 'Pontus', 'Ekdahl', 'Borås', 27),
+--(4, 'Pernilla', 'Thorén', 'Kungälv', 31)
+
+select * from personer;
